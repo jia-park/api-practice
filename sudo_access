@@ -5,7 +5,8 @@ In Ubuntu and other Linux distributions, the sudo command empowers users to exec
 To grant a user permission to use sudo, they must be added to the sudoers list, which is managed by the visudo command, editing the /etc/sudoers file. This file specifies which users or groups are permitted to execute commands with sudo.
 
 ## How to Add User to Sudoers List
-1. Open a terminal window.
+1. Open a terminal window. 1.png
+
 2. Type sudo visudo and press Enter. You may be prompted to enter your password.
 3. This command opens the sudoers file in a text editor (vi or nano). Using visudo is crucial to avoid syntax errors.
 4. Navigate to the section defining user privileges, often denoted by %sudo ALL=(ALL:ALL) ALL, granting sudo access to sudo group members.
